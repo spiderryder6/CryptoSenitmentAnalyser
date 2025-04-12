@@ -1,0 +1,13 @@
+{
+  "blob_key": "",
+  "blob_username": "",
+  "blob_url": "",
+  "blob_container": "",
+  "request_url": "https://oauth.reddit.com/r/bitcoin/new.json",
+  "request_target": 100,
+  "user_agent": "",
+  "reddit_key": "",
+  "reddit_secret": "",
+  "reddit_token_URL": "https://www.reddit.com/api/v1/access_token",
+  "state_day_limit": 3
+}

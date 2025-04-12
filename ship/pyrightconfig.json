@@ -1,0 +1,13 @@
+{
+  "venvPath": "./venv",
+  "venv": "venv",
+  "pythonVersion": "3.8",
+  "typeCheckingMode": "basic",
+  "include": ["src"],
+  "exclude": ["venv", "**/__pycache__", "**/*.pyc"],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": true,
+  "reportUnusedFunction": true,
+  "reportUnusedClass": true,
+  "reportUnusedVariable": true
+}

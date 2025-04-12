@@ -1,0 +1,48 @@
+<body>
+<div class="sentiment-dial-container">
+  <h2>Sentiment Scores</h2>
+
+  <!-- Speed Dial for Today's Score -->
+  <div class="speed-dial">
+    <ngx-gauge
+      [type]="'semi'"
+      [thick]="10"
+      [value]="sentimentScores[0]?.score ?? 0"
+      [label]="'Today'"
+      [min]="0"
+      [max]="10000"
+      [animate]="true"
+      [duration]="2000"
+      [margin]="30"
+      [cap]="'round'"
+      [thresholds]="thresholdConfig"
+      [foregroundColor]="'rgba(0, 0, 0, 0)'"
+      [backgroundColor]="'rgba(255, 255, 255, 0.1)'"
+      [markers]="markers"
+      [size]="400"
+    >
+    </ngx-gauge>
+  </div>
+
+  <!-- Grid for Other Scores -->
+  <div class="score-container">
+    <div
+      class="score-card"
+      *ngFor="let score of sentimentScores.slice(1)"
+      [ngStyle]="{ 'background-color': getScoreColor(score.score) }"
+    >
+      <h3>{{ score.label }}</h3>
+      <p>{{ score.score }}</p>
+    </div>
+  </div>
+  <div class="disclaimer">
+  <p>
+    <strong>Disclaimer:</strong> The sentiment scores displayed on this page are calculated based on aggregated sentiment data from social media. The methodology incorporates advanced analysis techniques and machine learning algorithms to generate these scores.
+  </p>
+  <p>
+    These scores are intended solely for informational purposes and do not constitute financial advice. They are not recommendations to buy, sell, or hold any security. Please consult with a professional financial advisor before making any investment decisions.
+  </p>
+    </div>
+
+</div>
+</body>

@@ -1,0 +1,74 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+.pulse-button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: pulse 2s infinite 5s; /* Pulse for 2s, wait 5s, then repeat */
+  transition: background-color 0.3s ease;
+}
+
+.pulse-button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

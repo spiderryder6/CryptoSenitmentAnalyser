@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+@import "animate.css";
+
+/* Global Variables */
+:root {
+  --primary-color: #00ff88 !important; /* Neon green */
+  --secondary-color: #00b8ff !important; /* Neon blue */
+  --background-color: #0d0d0d !important; /* Dark background */
+  --text-color: #ffffff !important; /* White text */
+  --card-background: #1a1a1a !important; /* Slightly lighter dark for cards */
+  --border-color: #333333 !important; /* Border color */
+  --font-family: "Roboto Mono", monospace !important;
+}
+
+/* Global Styles */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: var(--font-family) !important;
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color) !important;
+  margin: 0 !important;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: 10px 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+.infoCard {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

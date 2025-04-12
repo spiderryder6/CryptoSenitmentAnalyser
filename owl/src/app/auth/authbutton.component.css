@@ -1,0 +1,35 @@
+.auth-button {
+  padding: 0.4rem 1rem;
+  border: 1px solid #ffffffcc;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #ffffff22;
+  border-color: #ffffff;
+}
+
+.auth-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.auth-button:active {
+  background-color: #ffffff33;
+}
+
+.auth-button.auth-logged-in {
+  border-color: #00c471;
+  color: #00c471;
+}
+
+.auth-button.auth-logged-in:hover {
+  background-color: rgba(0, 196, 113, 0.2);
+  border-color: #00e38d;
+}

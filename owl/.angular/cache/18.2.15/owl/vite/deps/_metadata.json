@@ -1,0 +1,94 @@
+{
+  "hash": "a2044f33",
+  "configHash": "a92cc9e4",
+  "lockfileHash": "e99b6b25",
+  "browserHash": "2e922b69",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "374fda3f",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "da553603",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "ece69ba0",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "f7586971",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "82c0200e",
+      "needsInterop": false
+    },
+    "@auth0/auth0-angular": {
+      "src": "../../../../../../node_modules/@auth0/auth0-angular/fesm2020/auth0-auth0-angular.mjs",
+      "file": "@auth0_auth0-angular.js",
+      "fileHash": "bddbe31f",
+      "needsInterop": false
+    },
+    "chart.js": {
+      "src": "../../../../../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "5f01ca43",
+      "needsInterop": false
+    },
+    "chartjs-plugin-zoom": {
+      "src": "../../../../../../node_modules/chartjs-plugin-zoom/dist/chartjs-plugin-zoom.esm.js",
+      "file": "chartjs-plugin-zoom.js",
+      "fileHash": "5f66ced0",
+      "needsInterop": false
+    },
+    "ng2-charts": {
+      "src": "../../../../../../node_modules/ng2-charts/fesm2022/ng2-charts.mjs",
+      "file": "ng2-charts.js",
+      "fileHash": "c5d1fe98",
+      "needsInterop": false
+    },
+    "ngx-gauge": {
+      "src": "../../../../../../node_modules/ngx-gauge/fesm2022/ngx-gauge.mjs",
+      "file": "ngx-gauge.js",
+      "fileHash": "af83c62c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-AAESAJJV": {
+      "file": "chunk-AAESAJJV.js"
+    },
+    "chunk-O6XHPMR4": {
+      "file": "chunk-O6XHPMR4.js"
+    },
+    "chunk-N7CCREHM": {
+      "file": "chunk-N7CCREHM.js"
+    },
+    "chunk-6TR6FLYJ": {
+      "file": "chunk-6TR6FLYJ.js"
+    },
+    "chunk-ELB7Y5NA": {
+      "file": "chunk-ELB7Y5NA.js"
+    },
+    "chunk-QWIMUIWA": {
+      "file": "chunk-QWIMUIWA.js"
+    },
+    "chunk-O5WM7VRC": {
+      "file": "chunk-O5WM7VRC.js"
+    },
+    "chunk-TXDUYLVM": {
+      "file": "chunk-TXDUYLVM.js"
+    }
+  }
+}

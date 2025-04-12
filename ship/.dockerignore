@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# Allow .py and .ini files
+!*.py
+!*.ini
+
+# Allow the requirements file
+!requirements.txt
+

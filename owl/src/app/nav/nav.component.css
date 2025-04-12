@@ -1,0 +1,77 @@
+.navbar {
+  background-color: var(--card-background);
+  box-shadow: 0 2px 10px rgba(0, 255, 136, 0.1);
+  border-bottom: 1px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  position: relative;
+}
+
+.navbar-brand {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--primary-color) !important;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand:hover {
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
+}
+
+.nav-link {
+  font-family: var(--font-family);
+  color: var(--text-color) !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.2rem;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+  background-color: rgba(0, 255, 136, 0.1) !important;
+}
+
+.nav-link.active {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  right: 1rem;
+  height: 2px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+}
+
+/* Mobile menu button */
+.navbar-toggler {
+  border: none;
+  padding: 0.25rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 136, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.5rem !important;
+    margin: 0.1rem 0;
+  }
+}

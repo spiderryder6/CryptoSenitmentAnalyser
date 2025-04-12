@@ -1,0 +1,47 @@
+<div class="home-container">
+  <header class="header animate__animated animate__fadeIn">
+    <h1>Crypto Sentiment Analyser</h1>
+    <p>Your gateway to real-time cryptocurrency sentiment analysis.</p>
+  </header>
+
+  <section class="features">
+    <!-- Left Card (backInLeft) -->
+    <div
+      class="infoCard"
+      [ngClass]="{ 'animate__animated animate__backInLeft': true }"
+    >
+      <h2>Real-Time Sentiment Scores</h2>
+      <p>
+        Track the latest sentiment scores from r/bitcoin, updated every 4 hours.
+      </p>
+    </div>
+
+    <!-- Middle Card (backInUp) -->
+    <div
+      class="infoCard"
+      [ngClass]="{ 'animate__animated animate__backInUp': true }"
+      style="animation-delay: 0.5s"
+    >
+      <h2>Historical Trends</h2>
+      <p>Explore historical sentiment data with interactive charts.</p>
+    </div>
+
+    <!-- Right Card (backInRight) -->
+    <div
+      class="infoCard"
+      [ngClass]="{ 'animate__animated animate__backInRight': true }"
+      style="animation-delay: 0.25s"
+    >
+      <h2>Web3 Integration</h2>
+      <p>Built for the decentralized future with a modern web3 aesthetic.</p>
+    </div>
+  </section>
+
+  <button class="pulse-button" routerLink="/sentiment">
+    View Sentiment Scores
+  </button>
+
+  <footer class="footer">
+    <p>&copy; 2025 Crypto Sentiment Analyser. All rights reserved.</p>
+  </footer>
+</div>
